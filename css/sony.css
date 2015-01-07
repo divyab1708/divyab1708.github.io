@@ -1,0 +1,50 @@
+body {
+    background: white;
+    color: #474747;
+    font-family: sst_proregular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.35;
+    height: 100%;
+    overflow: hidden;
+}
+.scrollbar {
+    position: absolute;
+    z-index: 21;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    background: rgba(200, 200, 200, 0.3);
+    display: none;
+    opacity: 0;
+    margin-right: -10px;
+}
+.scrollbar .track {
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 10px;
+}
+.scrollbar .thumb {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 10px;
+    height: 40px;
+    margin: -20px 0;
+    background: #81C9DF;
+    -webkit-transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    cursor: pointer;
+}
+
+.viewport-inner canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

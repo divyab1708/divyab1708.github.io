@@ -1,0 +1,96 @@
+body,
+html {
+  height: 100%; }
+
+body {
+  text-align: center;
+  background-color: black; }
+  body:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle; }
+
+@-webkit-keyframes pulse {
+  70% {
+    background-color: #ff80ff; } }
+.box {
+  -webkit-filter: contrast(30);
+  background-color: black;
+  font-size: 10em;
+  padding: 0.5em;
+  position: relative;
+  color: #7f7f7f;
+  border: 2px solid;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+    transition: background-color 2s linear; }
+  .box:before {
+    content: "hover";
+    font-size: 14px;
+    position: absolute;
+    bottom: 104%;
+    left: 0; }
+  .box:after {
+    content: "or click";
+    font-size: 14px;
+    position: absolute;
+    top: 104%;
+    right: 0; }
+  .box:hover {
+    background-color: #ff1aff;
+      -webkit-animation: pulse 5s ease-in infinite; }
+  .box:active {
+    background-color: black;
+    -webkit-filter: contrast(50) invert(1);
+      -webkit-animation: none; }
+
+@-webkit-keyframes swayx {
+  50% {
+    left: 75%; } }
+@-webkit-keyframes swayy {
+  50% {
+    top: 75%; } }
+@-webkit-keyframes color {
+  14.28571% {
+    background-color: #ff3d00; }
+  28.57143% {
+    background-color: #ff7900; }
+  42.85714% {
+    background-color: #ffb600; }
+  57.14286% {
+    background-color: #fff300; }
+  71.42857% {
+    background-color: #ceff00; }
+  85.71429% {
+    background-color: #92ff00; }
+  100% {
+    background-color: #55ff00;
+
+
+  } }
+.circle, .one, .two {
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  -webkit-filter: blur(25px);
+  position: absolute;
+  background-color: white;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.one {
+    -webkit-animation: color 12s linear infinite alternate; }
+
+.two {
+  font-size: 0.75em;
+  left: -75%;
+  top: -75%;
+    -webkit-animation: swayx 3s ease-in-out infinite, swayy 3.3s ease-in-out infinite, color 16s linear infinite alternate-reverse; }
+
+/*# sourceMappingURL=liquid.css.map */

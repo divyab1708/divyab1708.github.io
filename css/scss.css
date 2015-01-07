@@ -1,0 +1,22 @@
+h1 {
+  background-color: red; }
+
+p {
+  color: red; }
+
+.helo h2 {
+  color: blue; }
+.helo p {
+  background-color: blue; }
+
+.try1 {
+  margin: 50px;
+  color: blueviolet;
+  font-weight: bold; }
+
+.try2 {
+  margin: 50px;
+  color: blueviolet;
+  font-weight: bold; }
+
+/*# sourceMappingURL=scss.css.map */

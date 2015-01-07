@@ -1,0 +1,33 @@
+
+$color:red;
+$new: blue;
+h1{
+background-color: $color;
+}
+
+p{
+  color: $color;
+}
+
+.helo{
+  h2{
+    color: $new;
+  }
+  p{
+    background-color: $new;
+  }
+}
+
+@mixin edit(){
+  margin: 50px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.try1{
+  @include edit();
+}
+
+.try2{
+@include edit();
+}

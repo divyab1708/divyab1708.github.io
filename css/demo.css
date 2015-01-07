@@ -1,0 +1,199 @@
+
+/* header */
+
+.header{
+    padding: 2%;
+    text-align: center;
+}
+
+.header .logo img{
+    /*width: 100%;*/
+}
+
+.header .search{
+    margin-left: 35%;
+    color: #23333d;
+    font-weight: bold;
+}
+
+.header .tour{
+    margin-left: -60px;
+}
+.header a{
+    color: #23333d;
+    font-weight: bold;
+}
+
+.header .changeWidth{
+    width: 6%;
+}
+
+.searchSelect{
+    background: transparent;
+    border: 0;
+}
+
+.searchNow{
+    width: 200px;
+    /*margin-left: -160%;*/
+    transform: scaleX(0);
+    transition: 0.2s all linear;
+    transition-delay: 0.2s;
+    transform-origin: 100%;
+
+}
+
+
+
+.searchText{
+    margin-left: 0 !important;
+    /*margin-left: -160%;
+    transform: scaleX(0);
+    transition: 0.2s all linear;
+    transition-delay: 0.2s;
+    transform-origin: 100%;*/
+}
+
+.expand{
+    transform: scaleX(1);
+}
+
+.search > div{
+    display: inline;
+}
+
+
+/* end header */
+
+/* heading*/
+
+.heading{
+    text-align: center;
+
+}
+/* end heading*/
+
+/* body*/
+
+.block{
+    position: relative;
+    perspective: 20000px;
+    cursor: pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.block h1{
+    font-weight: bold;
+
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    transform-style: preserve-3d;
+    transition: 0.2s all linear;
+    transition-delay: 0.2s;
+}
+
+.common{
+    position: absolute;
+    color: white;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    padding-top: 40%;
+    transition: 0.2s all linear;
+    transition-delay: 0.2s;
+}
+
+
+
+.contentBlock{
+    /*transform: rotateY(-90deg)translateZ(191px)translateX(-60px);*/
+    transform: rotateY(-90deg)translateZ(249px);
+    z-index: 5;
+    padding: 5%;
+    text-align: left;
+    margin-top: 0 !important;
+}
+
+.contentBlock *{
+    margin-top: 5%;
+}
+
+.titleBlock{
+    z-index: 10;
+}
+.showContent{
+    /*transform: translateZ(-191px) rotateY(93deg);*/
+    transform: translateZ(-230px) rotateY(90deg);
+}
+
+.changeTitleBlock{
+    transform: translateX(209px)translateZ(230px);
+    /*transform: translateX(137%)translateZ(230px);*/
+
+}
+
+.smallText{
+    font-size: 125%;
+    letter-spacing: 1px;
+}
+
+.text{
+    font-size: 125%;
+    letter-spacing: 1px;
+}
+
+#first .titleBlock{
+
+    background: #261e4c;
+
+}
+#second .titleBlock{
+
+    background: #CB252A;
+
+}
+
+#first .contentBlock{
+    /*background: #64c5e2;*/
+    background:  #552951;
+}
+#second .contentBlock{
+    background: #FD6867;
+    text-align: center;
+
+}
+
+#second .contentBlock *{
+    margin: 0;
+}
+
+.body1{
+    margin-top: 34%;
+}
+
+#third .titleBlock{
+
+    background: #EF690F;
+
+}
+
+#third .contentBlock {
+    background: #e29662;
+}
+
+#fourth .titleBlock{
+
+    background: #2B664A;
+
+}
+
+#fourth .contentBlock *{
+    background: #549864;
+}
+
+/* end body*/

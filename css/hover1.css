@@ -1,0 +1,164 @@
+body{
+    margin: 0 !important;
+    background: #F19C11;
+}
+@font-face {
+    font-family: nexarustcurcive;
+    src: url(NexaRustScriptL-0.otf) format("opentype");
+}
+
+@font-face {
+    font-family: nexa;
+    src: url(NexaRustSans-Black.otf) format("opentype");
+}
+
+@font-face {
+    font-family: nexa1;
+    src: url(NexaRustSlab-BlackShadow01.otf) format("opentype");
+}
+
+h1{
+    font-family: nexa1;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+h2{
+    font-family: nexa;
+}
+
+p{
+    font-family: nexarustcurcive;
+    font-style: italic;
+    text-align: center !important;
+}
+.title {
+    background: #21201E;
+    color: white;
+    text-align: center;
+    height: 15%;
+    padding-top: 2%;
+}
+
+.view, .view2, .view3 {
+    border: 0 !important;
+    width: 25% !important;
+}
+
+img{
+    width: 100% !important;
+}
+
+/* ---------- */
+
+
+.text{
+    width: 100px;
+    height: 50px;
+    border: 2px solid #000000;
+    position: relative;
+    top: 400px;
+    left: 500px;
+    transform: rotate(40deg);
+}
+
+.view{
+    position: relative;
+   /* margin: 20px;*/
+    height: 200px;
+    width: 300px;
+    border: 10px solid #000000;
+    overflow: hidden;
+}
+
+.view img{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+}
+
+.view .mask{
+    position: absolute;
+    height: 200px;
+    /*width: 300px;*/
+    width: 100%;
+    background-color: rgba(185,0,92,0.5);
+    overflow: hidden;
+    transform: translateX(75%) rotate(90deg);
+    transition: all 0.2s linear;
+    opacity: 1;
+}
+
+.view h2 ,.view p
+{
+    /*text-transform: uppercase;*/
+    position: relative;
+    margin: 30px;
+    text-align: center;
+}
+
+.view h2{
+    /*background-color: #000000;*/
+    background-color: #320943;
+    padding: 1%;
+    border-radius: 8px;
+    color: #ffffff;
+    position: relative;
+    /*transform: translate(200px,0);*/
+    transform: translateY(-100px);
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+
+
+}
+.view p{
+    color: #ffffff;
+    opacity: 0;
+    /*font-size: 10px;*/
+    text-align: justify;
+    transform: translate(150px,0) rotate(90deg);
+    transition: all 0.2s ease-in-out;
+}
+.view a{
+    position: relative;
+    margin-left: 110px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+
+
+    background-color: #320943;
+    border: 2px solid #000000;
+    padding: 1%;
+    border-radius: 5px;
+
+}
+
+.view a{
+    transform: translateY(-200px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.view:hover .mask{
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.view:hover h2{
+    opacity: 1;
+    transition-delay: 0.4s;
+    transform: translateY(0);
+}
+
+.view:hover p{
+    opacity:1;
+    transition-delay: 0.3s;
+    transform: rotate(0);
+}
+
+.view:hover a{
+    opacity: 1;
+    transition-delay:0.2s;
+    transform: translateY(0);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/sony.css"/>
+</head>
+<body>
+<div class="wrapper" id="full-content">
+    <div class="viewport" id="viewport">
+        <div class="viewport-inner" id="content">
+
+            <!-- Articles content for each of the 9 slides -->
+            <article id="S01_PRODUCT" class="product-name left" style="display: none;">...</article>
+            <article id="S01_POSTER_TITLE" class="headline left" style="display: none;">...</article>
+            <article id="S01_POSTER" class="poster left" style="display: none;">...</article>
+
+            <!-- All other slide markup -->
+
+            <article id="S09_POSTER_TITLE" class="headline" style="display: none;">...</article>
+            <article id="S09_POSTER" class="poster" style="display: none;">...</article>
+            <article id="S09_BEMOVED" class="product-name" style="display: none;">...</article>
+
+            <!-- Canvas where the animation happens -->
+            <canvas height="1144" width="1450"></canvas>
+
+        </div>
+
+        <!-- Preloader container -->
+        <div class="loader" id="loader" style="display: none;">
+            Loading…
+        </div>
+        <div id="frameLoads"></div>
+
+    </div>
+
+    <!-- Scrollbar container -->
+    <div id="chrome">
+        <nav id="section-nav">
+            <ul><li class="">...</li></ul>
+            <button class="scroll-down">▽</button>
+        </nav>
+        <div class="scrollbar">
+            <div class="track">
+                <span class="thumb"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+.view3 {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    /*margin: 20px;*/
+    border: 10px solid #000000;
+    background-image: url(cd.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.view3 img{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+}
+
+.view3 .content{
+    position: absolute;
+
+    overflow: hidden;
+
+}
+
+.view3 h2{
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,0.5);
+}
+.view3 p{
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    color: white;
+}
+
+.view3 a{
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    border: 5px solid #000000;
+    position: relative;
+    margin-left: 100px;
+}
+
+.effect3 .content{
+    transform: translateX(-100%);
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.effect3 img{
+    transition: all 0.3s linear;
+}
+.effect3:hover .content{
+    transform: translateX(0);
+}
+
+.effect3:hover img{
+    transform: translateX(100%);
+}
+
+/* ----------------------- */
+.effect4 h2,.effect4 p{
+    transform: scale(5);
+    transition: all 0.2s ease-in;
+}
+.effect4 a{
+    transform: translateY(100px);
+    transition: all 0.4s ease-in;
+}
+.effect4 hr{
+    transform: scale(5);
+    transition: all 0.2s ease-in;
+}
+.effect4:hover h2, .effect4:hover p{
+
+    transform: scale(1);
+    opacity: 1;
+}
+.effect4:hover h2{
+    transition-delay: 0.1s;
+}
+.effect4:hover p{
+    transition-delay: 0.2s;
+}
+
+
+.effect4:hover .mask{
+    opacity: 1;
+}
+.effect4:hover hr{
+    opacity: 1;
+    transform: scale(1);
+    transition-delay: 0.1s;
+}
+
+.effect4:hover a{
+
+    transition-delay: 0.4s;
+
+    transform: translateY(0);
+    opacity: 1;
+}

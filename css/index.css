@@ -1,0 +1,326 @@
+
+@font-face {
+    font-family: 'braxton';
+    src: url(font/Braxton.otf);
+}
+
+body{
+    font-family: 'Vollkorn', serif !important;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+h1{
+    /*font-family: 'Vollkorn', serif !important;*/
+    font-family: 'PT Sans Caption', sans-serif !important;
+}
+
+h3,h4{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.first{
+    text-align: center;
+   /* padding-top: 5%;*/
+
+    height: 100vh;
+
+    /*border-bottom: 1px solid;*/
+}
+
+.logo{
+    margin-top: 5%;
+}
+
+.divya{
+    width: 50%;
+   /* margin-top: -10%;*/
+    margin-left: 5%;
+
+}
+
+.social img{
+    width: 30px;
+}
+
+.social{
+    /*margin-top: -12%;*/
+}
+
+.name{
+    font-weight: bold;
+    font-size: 100px;
+    z-index: 5;
+    background-color: white;
+    font-family: 'braxton';
+
+}
+
+.post{
+    word-spacing: 30px;
+}
+
+/* second */
+
+.second,.third, .fourth{
+    height: 100vh;
+    text-align: center;
+    padding: 2%;
+
+    font-size: 125%;
+}
+
+.divyaImg, .workImg{
+    width: 10%;
+}
+
+.second h1{
+    color: #E4511C;
+    margin: 0;
+}
+
+.row>div{
+    padding: 0;
+}
+
+.second .icon{
+    width: 100%;
+}
+
+.college{
+}
+
+.second .resize{
+    width: 55%;
+}
+
+.resize1{
+    width: 40%;
+}
+
+.icon1{
+    margin-top: 22%;
+}
+
+.second .iconImg {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.college, .interestsText{
+    margin-top: 2%;
+    padding-top: 3% !important;
+
+}
+
+.interestsText{
+    text-align: left;
+    margin-left: 3%;
+}
+
+.second .ic {
+    margin-top: 2%;
+}
+/*new */
+.image img{
+    width: 30%;
+}
+
+.second ul{
+    text-align: left;
+    margin-left: 32%;
+}
+
+.second .image {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.second .col-lg-3.col-md-3.col-xs-3 {
+    background: #E5D8B7;
+    height: 380px;
+    border-radius: 10px;
+    margin-top: 5%;
+    font-size: 95%;
+    padding-left: 1%;
+    padding-bottom: 27%;
+}
+
+/* end second */
+
+/*third*/
+.workTitle h1{
+    color: #632b61;
+
+}
+.contain{
+    position: relative;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    
+}
+.curtain{
+    width: 100%;
+    height: 142px;
+    position: absolute;
+    top: 0;
+}
+
+.red{
+    background: rgba(213,37,23,0.7);
+}
+
+.green{
+    background: rgba(0, 150, 136, 0.7);
+    
+}
+
+.blue{
+    background: rgba(21, 90, 255, 0.7);
+
+}
+
+.firstLeft{
+    margin-left: 25%;
+}
+
+.third h4{
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    margin-top: 25%;
+}
+
+/* new*/
+
+.diamond{
+    background: rgba(0,0,0,0.5);
+    width: 180px;
+    height: 180px;
+    transform: rotateZ(45deg);
+    overflow: hidden;
+    /*border: 8px solid #CA4349;*/
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    transition: 0.4s all linear;
+    transition-delay: 0.1s;
+
+}
+
+.diamond img{
+    width: 300%;
+    margin-top: -66%;
+    transform: rotateZ(-45deg);
+    margin-left: -54%;
+    transition: 0.2s all linear;
+    transition-delay: 0.2s;
+
+}
+
+.first1{
+    margin-top: 5%;
+    position: relative;
+}
+
+.second1{
+    margin-top: -3%;
+    position: absolute;
+    width: 100%;
+    margin-left: 18.3%;
+}
+
+.second1 .col-lg-2.col-md-2.col-xs-3 {
+    position: relative;
+    margin-left: -0.7%;
+}
+
+.second1diamond{
+    transform: rotateZ(0deg)translateY(69%)scale(1.39);
+}
+
+.first1diamond{
+    transform: rotateZ(0deg)translateY(-69%)scale(1.39);
+}
+
+.rotateImage{
+    transform: rotateZ(0deg) !important;
+    width: 200% !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+.content{
+    width: 180px;
+    height: 180px;
+    background: rgba(99,43,97,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: 0.2s all linear;
+    transition-delay: 0.4s;
+}
+
+.diamond:hover .content{
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+.hang{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -25%;
+    margin-left: 6%;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: 0.2s all linear;
+    transition-delay: 0.5s;
+}
+
+.diamond:hover .hang{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.hang h4{
+
+    opacity: 1 !important;
+    color: #000000 !important;
+    text-shadow: 0 0 0 black;
+}
+/*end third*/
+
+/* fourth */
+
+.artTitle h1{
+    color: #41858D;
+}
+
+.outerCircle{
+    border: 1px solid;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 100%;
+    position: relative;
+    background: #E5D8B7;
+}
+
+.innerCircle{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid;
+    border-radius: 100%;
+    margin-left: 16%;
+    margin-top: 16%;
+    top: 0;
+    background: #ffffff;
+
+}
+
+.outerCircle img{
+    width: 20%;
+    position: absolute;
+}
+/* end fourth */
