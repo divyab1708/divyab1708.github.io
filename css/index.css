@@ -41,6 +41,8 @@ h3,h4{
 
 .social img{
     width: 30px;
+    border-radius: 100%;
+    margin-right: 1%;
 }
 
 .social{
@@ -62,7 +64,7 @@ h3,h4{
 
 /* second */
 
-.second,.third, .fourth{
+.second,.third, .fourth, .fifth{
     height: 100vh;
     text-align: center;
     padding: 2%;
@@ -224,12 +226,14 @@ h3,h4{
     margin-top: -3%;
     position: absolute;
     width: 100%;
-    margin-left: 18.3%;
+    /*margin-left: 18.3%;*/
+    margin-left: 18.6%;
 }
 
 .second1 .col-lg-2.col-md-2.col-xs-3 {
     position: relative;
-    margin-left: -0.7%;
+   /* margin-left: -0.7%;*/
+    margin-left: -0.62%;
 }
 
 .second1diamond{
@@ -293,34 +297,85 @@ h3,h4{
 
 /* fourth */
 
+.fourth{
+    position: relative;
+}
+
 .artTitle h1{
     color: #41858D;
 }
 
 .outerCircle{
-    border: 1px solid;
+    border: 10px solid #E5D8B7;
     width: 1500px;
     height: 1500px;
     border-radius: 100%;
     position: relative;
-    background: #E5D8B7;
+    /*background: #E5D8B7;*/
+    transition: 0.4s all ease-in;
+
 }
 
 .innerCircle{
     position: absolute;
     width: 1000px;
     height: 1000px;
-    border: 1px solid;
+    /*border: 1px solid;*/
+    border: 10px solid #ffffff;
     border-radius: 100%;
     margin-left: 16%;
     margin-top: 16%;
     top: 0;
-    background: #ffffff;
+    /*background: #ffffff;*/
+    background: #E5D8B7;
 
 }
 
 .outerCircle img{
     width: 20%;
     position: absolute;
+    margin-top: 3% !important;
+    transition: 0.4s all ease-in;
+    border-radius: 10px;
+
+}
+
+.outerCircle img:hover{
+    transform: scale(1.5);
+}
+
+.square{
+    height: 565px;
+    overflow: hidden;
+    margin-top: 2%;
+    transform: scale(0.8);
+}
+
+.buttons{
+    position: absolute;
+    top: 0;
+    margin-left: 45%;
+    margin-top: 48%;
+    z-index: 10;
 }
 /* end fourth */
+
+/* fifth*/
+
+.contact{
+    color: #E6485C
+}
+
+.fifth .email img{
+    width: 5%;
+    margin-right: 1%;
+}
+
+.fifth h2{
+    display: inline;
+}
+
+.email {
+    margin-top: 10%;
+}
+/* end fifth*/
