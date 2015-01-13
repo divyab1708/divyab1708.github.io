@@ -49,7 +49,7 @@ h3,h4{
 }
 
 .logo{
-    margin-top: 5%;
+    /*margin-top: 5%;*/
 }
 
 .divya{
@@ -81,7 +81,7 @@ h3,h4{
 }
 
 .post{
-    word-spacing: 30px;
+    word-spacing: 3vw;
     font-size: 1vw;
 }
 
@@ -183,7 +183,7 @@ h3,h4{
     margin-bottom: 5%;
 }
 
-.second .col-lg-3.col-md-3.col-xs-3 {
+.second .col-lg-3 {
     background: #E5D8B7;
     height: 380px;
     border-radius: 10px;
@@ -439,3 +439,105 @@ h3,h4{
     margin-top: 10%;
 }
 /* end fifth*/
+
+
+/* media queries*/
+@media screen and (max-width: 990px) {
+
+    .logo{
+        width: 25vw;
+    }
+    .second .col-lg-3{
+        height: auto;
+    }
+
+    .divyaImg, .workImg {
+        width: 20vw;
+    }
+
+    .image img {
+        width: 15vw;
+    }
+
+    .post {
+        word-spacing: 0vw;
+        font-size: 1.5vw;
+    }
+
+    .second1 {
+
+        margin-left: 17.2vw;
+    }
+}
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+    body{
+        margin-left: 10%;
+    }
+
+    .second .col-lg-3{
+        height: auto;
+    }
+
+    .divyaImg, .workImg {
+        width: 20vw;
+    }
+
+    .image img {
+        width: 15vw;
+    }
+
+    .post {
+        word-spacing: 0vw;
+        font-size: 1.8vw;
+        font-weight: bold;
+
+    }
+
+    .second1 {
+
+        margin-left: 17.2vw;
+    }
+
+    .education{
+        margin-left: 0 !important;
+    }
+
+    .firstFirst{
+        transform: scale(2);
+        margin-top: 35%;
+        margin-bottom: 25%;
+    }
+
+    h1{
+        font-size: 10vw;
+    }
+
+    h3{
+        font-size: 6vw;
+        font-weight: bold;
+
+    }
+
+    .second, .email h2{
+        font-size: 5vw;
+    }
+
+    .secondContainer{
+        transform: scale(1.5);
+        margin-top: 10%;
+    }
+
+    .fifthFifth{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+}
+
+
+/* end media queries*/
