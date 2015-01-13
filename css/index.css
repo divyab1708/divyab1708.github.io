@@ -476,7 +476,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
     body{
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     .second .col-lg-3{
