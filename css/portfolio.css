@@ -1,0 +1,123 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+img.logo {
+    width: 15%;
+}
+
+.content{
+    padding: 5%;
+}
+
+
+/* GREX*/
+
+
+.grex #grp1 .back {
+    background-image: url(../mockups/grexV3/01.jpg);
+    background-size: cover;
+}
+
+.grex #grp2 .base {
+    background-image: url(../mockups/grexV3/02.jpg);
+    background-size: cover;
+}
+
+.grex #grp3 .back {
+    background-image: url(../mockups/grexV3/03.jpg);
+    background-size: cover;
+
+}
+
+.grex #grp4 .base {
+    background-image: url(../mockups/grexV2/01.jpg);
+    background-size: cover;
+}
+
+
+
+#grp4{
+    z-index: 4;
+}
+
+#grp5{
+    z-index: 3;
+}
+
+.grex #grp5 .back {
+    background-image: url(../mockups/grexV2/02.jpg);
+    background-size: cover;
+
+}
+
+.grex #grp6,.fusedcow #grp3, .laboro #grp3, .incucapital #grp2{
+    z-index: 1;
+    background: #3A3A3A;
+    height: 50vh;
+}
+
+
+/* fusedcow */
+
+.fusedcow #grp1 .back {
+    background-image: url(../mockups/fusedcow/01.jpg);
+    background-size: cover;
+}
+
+.fusedcow #grp2 .base {
+    background-image: url(../mockups/fusedcow/02.jpg);
+    background-size: cover;
+}
+
+/* laboro */
+
+.laboro #grp1 .back {
+    background-image: url(../mockups/laboro/01.jpg);
+    background-size: cover;
+}
+
+.laboro #grp2 .base {
+    background-image: url(../mockups/laboro/02.jpg);
+    background-size: cover;
+}
+
+/* incucapital  */
+
+.incucapital #grp1 .back {
+    background-image: url(../mockups/incucapital/01.jpg);
+    background-size: cover;
+}
+
+
+ 
+/* grexinfo */
+
+.grexinfo .content p{
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.grexinfo #grp1 .back {
+    background-image: url(../mockups/grexinfo/1.jpg);
+    background-size: cover;
+}
+
+.grexinfo #grp2 .base {
+    background-image: url(../mockups/grexinfo/2.jpg);
+    background-size: cover;
+}
+
+.grexinfo #grp3 .back {
+    background-image: url(../mockups/grexinfo/3.jpg);
+    background-size: cover;
+
+}
+
+
+.grexinfo #grp4{
+    z-index: 1;
+    background: #3A3A3A;
+    height: 90vh;
+}
