@@ -1,0 +1,16 @@
+.backLink {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    padding: 2%;
+}
+
+.backLink a {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.backLink a:hover {
+    color: white;
+    text-shadow: 0;
+}
