@@ -95,12 +95,12 @@ $(document).ready(function(){
             $(".sideNavBar").find("a:nth-child(2)").removeClass("glyphicon-star-empty").addClass("glyphicon-star");
             // console.log("sec2");
         }
-        else if ( $window.scrollTop() >= distance3 && $window.scrollTop()< distance4) {
+        else if ( $window.scrollTop() >= distance3 && $window.scrollTop()< distance4-400) {
             $(".glyphicon-star").removeClass("glyphicon-star").addClass("glyphicon-star-empty");
             $(".sideNavBar").find("a:nth-child(3)").removeClass("glyphicon-star-empty").addClass("glyphicon-star");
             // console.log("sec3");
         }
-        else if ( $window.scrollTop() >= distance4-300 ) {
+        else if ( $window.scrollTop() >= distance4-400 ) {
             $(".glyphicon-star").removeClass("glyphicon-star").addClass("glyphicon-star-empty");
             $(".sideNavBar").find("a:nth-child(4)").removeClass("glyphicon-star-empty").addClass("glyphicon-star");
             // console.log("sec4");
