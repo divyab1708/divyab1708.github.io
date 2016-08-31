@@ -15,13 +15,17 @@ h1{
     font-family: 'PT Sans Caption', sans-serif !important;
 }
 
-h3,h4{
+h2,h3,h4{
     font-family: 'Ubuntu', sans-serif;
 }
 
 .img-responsive{
     display: inline !important;
 
+}
+
+.education{
+    margin-left: 3%;
 }
 
 .top5{
@@ -192,6 +196,7 @@ h3,h4{
 .second .col-lg-3 {
     background: #E5D8B7;
     height: 380px;
+    margin-left: 1%;
     border-radius: 10px;
     margin-top: 5%;
     font-size: 95%;
@@ -299,7 +304,8 @@ h3,h4{
 .second1 .col-lg-2.col-md-2.col-xs-3 {
     position: relative;
    /* margin-left: -0.7%;*/
-    margin-left: -0.62%;
+    /*margin-left: -0.62%;*/
+    margin-left: 0;
 }
 
 .second1diamond{
@@ -508,6 +514,10 @@ h3,h4{
 
 }
 
+.forMobile{
+    display: none;
+}
+
 
 
 /* media queries*/
@@ -537,6 +547,28 @@ h3,h4{
 
         margin-left: 17.2vw;
     }
+
+    .first {
+        padding-top: 13%;
+        height: 100vh;
+    }
+
+    .post span {
+        /* word-spacing: 3vw; */
+        font-size: 1.4vw;
+    }
+
+    .divya {
+        width: 60vw;
+    }
+    .second, .third, .fourth, .fifth {
+        font-size: 2vw;
+    }
+
+    .second .col-lg-3 {
+        margin-left: 8%;
+        padding-bottom: 8%;
+    }
 }
 
 
@@ -545,7 +577,18 @@ and (min-device-width : 320px)
 and (max-device-width : 720px) {
 
     body{
-        margin-left: 15%;
+        /*position: fixed;*/
+    }
+    .first {
+        height: 80vh;
+        padding-top: 30%;
+    }
+
+    .post span {
+        font-size: 1.18vw;
+    }
+    .divya {
+        width: 52vw;
     }
 
     .second .col-lg-3{
@@ -560,6 +603,14 @@ and (max-device-width : 720px) {
         width: 15vw;
     }
 
+    .second .image {
+        margin-bottom: 0;
+    }
+
+    .second h3 {
+        margin-bottom: 3%;
+    }
+
     .post {
         word-spacing: 0vw;
         font-size: 1.8vw;
@@ -567,13 +618,23 @@ and (max-device-width : 720px) {
 
     }
 
+
+
     .second1 {
 
         margin-left: 17.2vw;
     }
 
     .education{
-        margin-left: 0 !important;
+        margin-left: 8.33333333%;
+    }
+    .second .col-lg-3 {
+        margin-left: 8.33333333%;
+
+
+    }
+    img.resumeIcon {
+        width: 4vw;
     }
 
     .firstFirst{
@@ -583,17 +644,17 @@ and (max-device-width : 720px) {
     }
 
     h1{
-        font-size: 10vw;
+        font-size: 7vw;
     }
 
     h3{
-        font-size: 6vw;
+        font-size: 5vw;
         font-weight: bold;
 
     }
 
     .second, .email h2{
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .secondContainer{
@@ -605,6 +666,40 @@ and (max-device-width : 720px) {
         margin-top: 15%;
         margin-bottom: 15%;
     }
+
+    .diamond{
+        transform: rotateZ(0deg);
+        width: 25.5vw;
+        height: 25.5vw;
+    }
+
+    .first1 div:first-child {
+        margin-left: 0 !important;
+    }
+
+    .diamond img {
+        transform: rotateZ(0deg);
+        margin-top: 0;
+    }
+
+    .forMobile{
+        display: block;
+    }
+
+    .second1{
+        display: none;
+    }
+
+    h2, .h2 {
+        font-size: 7vw;
+        margin-top: 10%;
+    }
+
+    #sec3 .col-lg-2 {
+        width: 25%;
+    }
+
+
 
 }
 
