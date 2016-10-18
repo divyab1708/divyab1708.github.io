@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Avenir";
+    src: url('../fonts/AvenirNext-Regular.otf');
+}
+@font-face {
+    font-family: "Avenir";
+    src: url('../fonts/AvenirNext-Bold.ttf');
+    font-weight: bold;
+}
+
+.blueBg{
+    background: #2a368d;
+}
+
+body{
+    font-family: "Avenir", sans-serif;
+}
+
+.header .hello{
+    /*color: white;*/
+    text-align: center;
+}
+
+.header img {
+    width: 22%;
+}
+
+.row.header {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 170%;
+    width: 100%;
+}
+
+.header a{
+    color: #3848bb;
+
+}
+
+.header a.active{
+    color: white;
+}
+
+.rightMenu{
+    text-align: right;
+}
+
+.header .hello, .header .rightMenu{
+    padding: 1.5%;
+}
+
+.header .rightMenu a:first-child{
+    margin-right: 5%;
+}
+
+.sepLine {
+    width: 100%;
+    height: 2px;
+    background: radial-gradient(white 34%, #3848bb 37%);
+}
+
+.sepLine.contact{
+    background: radial-gradient(closest-side at 89.5% 26%,white 26%, #3848bb 40%)
+}
+
+.col-lg-12.col-md-12.col-xs-12.insideBox {
+    padding: 5%;
+}
+
+.insideBox1 {
+    background: linear-gradient(#df5636, #363887);
+    width: 100%;
+    height: 73vh;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5);
+    padding: 5.5%;
+}
+
+.bigHello div:nth-child(2){
+    margin-top: -6%;
+}
+
+#polygon{
+    width: 100%;
+}
+
+.insideBox2 {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+}
+
+.bigHello {
+    padding: 0% 5%;
+    color: white;
+    font-weight: bold;
+    font-size: 10vw;
+}
+
+.textIntro {
+    text-align: right;
+    padding: 2.5% 5%;
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+/* Contacts Page*/
+
+.whiteBg {
+    background: white;
+    height: 90.2vh;
+    padding: 4% 5.5%;
+}
+.contactBox {
+    border: 2px solid #29328f;
+    height: 100%;
+    padding: 7% 16%;
+}
+
+.rushiName, .hireMeOn {
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.rushiName{
+    color: #eb5830;
+
+}
+
+.contactGroup {
+    margin-top: 5%;
+}
+.contactGroup .text {
+    color: #2a368d;
+    font-size: 1.5vw;
+}
+
+.contactGroup .subtext a{
+    color: #bdbdbd;
+    font-size: 1.2vw;
+    text-decoration: underline;
+}
+
+.col-lg-6.col-md-6.col-md-6.hireMeBox {
+    height: 90.2vh;
+
+    background: linear-gradient(#df5636, #363887);
+    padding: 6.8% 12%;
+}
+
+.hireMeOn{
+    color: white;
+}
+
+.contactGroup1 .text{
+    font-size: 1.5vw;
+    color: white;
+}
+
+.contactGroup1 .subtext a{
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: underline;
+}
+
+.contactGroup1 {
+    margin-top: 5.2%;
+}
+
