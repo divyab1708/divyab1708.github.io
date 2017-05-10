@@ -35,7 +35,7 @@
             price: 2.95, 
             canPurchase: true, 
             soldOut: false,
-            image:["img/gem1.jpg","img/gem-07.jpg"],
+            image:["http://divyab1708.github.io/img/gem1.jpg","http://divyab1708.github.io/img/gem-07.jpg"],
             shine:"5",
             description: "Icing powder jelly bear claw danish lollipop. Cheesecake biscuit apple pie chocolate cake macaroon. Carrot cake pudding marshmallow cheesecake cheesecake marshmallow lollipop pastry chocolate bar. Danish candy pastry. Tart tootsie roll sesame snaps gingerbread.",
             reviews:[
@@ -58,7 +58,7 @@
             price: 3, 
             canPurchase: false, 
             soldOut: false,
-            image:["img/gem-07.jpg","img/gem1.jpg"],
+            image:["http://divyab1708.github.io/img/gem-07.jpg","http://divyab1708.github.io/img/gem1.jpg"],
             shine:"8",
             description: " pie chocolate cake macaroon. Carrot cake pudding marshmallow cheesecake cheesecake marshmallow lollipop pastry chocolate bar. Danish candy pastry. Tart tootsie roll sesame snaps gingerbread.Icing powder jelly bear claw danish lollipop. Cheesecake biscuit apple",
             reviews:[
@@ -81,7 +81,7 @@
              price: 2.95, 
              canPurchase: true, 
              soldOut: false,
-             image:["img/gem1.jpg","img/gem-07.jpg"],
+             image:["http://divyab1708.github.io/img/gem1.jpg","http://divyab1708.github.io/img/gem-07.jpg"],
              shine:"10",
             description: " macaroon. Carrot cake pudding marshmallow cheesecake cheesecake marshmallow lollipop pastry chocolate bar.Icing powder jelly bear claw danish lollipop. Cheesecake biscuit apple pie chocolate cake macaroon. Carrot cake pudding marshmallow cheesecake cheesecake marshmallow lollipop pastry chocolate bar. Danish candy pastry. Tart tootsie roll sesame snaps gingerbread.",
             reviews:[
