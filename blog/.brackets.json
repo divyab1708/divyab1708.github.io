@@ -1,0 +1,12 @@
+{
+    "path": {
+        "scss/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "output": "../css/style.css",
+                "sourceComments": "map"
+            },
+            "linting.collapsed": true
+        }
+    }
+}
