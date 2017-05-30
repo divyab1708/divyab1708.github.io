@@ -1,0 +1,255 @@
+/* line 1, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+body {
+  background: #f9f9f9;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Droid Serif', serif;
+  font-size: 16px; }
+
+/* line 8, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+a {
+  color: #FF1D15;
+  text-decoration: none !important; }
+  /* line 11, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  a:hover {
+    color: #D41C53; }
+
+/* line 16, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+h1, h2, h3, h4, h5, .heading {
+  font-family: 'Roboto', sans-serif; }
+
+/* line 20, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.light {
+  font-weight: 300; }
+
+/* line 24, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.container-fluid {
+  padding: 20px 40px; }
+
+/* line 29, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.card {
+  background: white;
+  display: block;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px; }
+  /* line 35, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  .card .card-body {
+    padding: 20px;
+    position: relative; }
+    /* line 38, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+    .card .card-body h3, .card .card-body h2 {
+      font-weight: 500;
+      margin-top: 0; }
+
+/* line 47, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7); }
+
+/* line 53, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.summary {
+  font-family: 'Open Sans', sans-serif;
+  color: #B7B4C3;
+  line-height: 1.5;
+  margin-bottom: 2%;
+  font-size: 16px; }
+
+/* line 62, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.btn-primary {
+  background: #FF1D15;
+  color: white;
+  border-color: #FF1D15; }
+
+/* line 68, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.commentC {
+  min-height: 100px;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  padding: 25px 0;
+  border-bottom: 1px solid #B7B4C3; }
+  /* line 74, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  .commentC:last-child {
+    border-bottom: 0; }
+  /* line 77, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  .commentC span {
+    color: #B7B4C3;
+    font-size: 14px; }
+  /* line 81, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  .commentC img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 25px; }
+  /* line 89, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  .commentC > div {
+    padding-left: 60px;
+    width: 80%; }
+
+/* line 95, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.ng-dirty.ng-invalid {
+  border-color: #F13C51; }
+
+/* line 99, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.likesNcomments {
+  color: #B7B4C3;
+  margin-bottom: 1%;
+  margin-right: 15px; }
+  /* line 103, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  .likesNcomments .fa {
+    margin-right: 5px; }
+  /* line 107, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  .likesNcomments a.fa-thumbs-o-up {
+    color: #B7B4C3; }
+  /* line 110, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+  .likesNcomments a.fa-thumbs-up {
+    color: #FF1D15; }
+
+/* line 118, C:/xampp/htdocs/blog-now/scss/imports/components/_components.scss */
+.containerPadding {
+  padding: 0 15%; }
+
+/* line 1, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+header {
+  background: #FF1D15;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Open Sans', sans-serif; }
+  /* line 5, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+  header .title {
+    padding: 15px 40px; }
+    /* line 8, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+    header .title .identity img {
+      width: 60px; }
+    /* line 10, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+    header .title .identity span {
+      font-family: 'Lobster', cursive;
+      font-size: 25px;
+      margin-left: 10px; }
+    /* line 15, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+    header .title .identity .links {
+      margin-top: 10px; }
+      /* line 17, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+      header .title .identity .links a {
+        font-size: 16px;
+        color: #FFC229; }
+    /* line 25, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+    header .title .main-nav {
+      height: 20px;
+      border-top: 1px solid #e4e4e4;
+      margin-top: 12px; }
+      /* line 29, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+      header .title .main-nav li {
+        float: left;
+        list-style: none;
+        padding: 10px 30px; }
+        /* line 33, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+        header .title .main-nav li a {
+          color: white; }
+          /* line 35, C:/xampp/htdocs/blog-now/scss/imports/_header.scss */
+          header .title .main-nav li a:hover {
+            color: #B7B4C3; }
+
+/* line 3, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+.bigArticle .containImg {
+  height: 400px;
+  overflow: hidden; }
+  /* line 7, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+  .bigArticle .containImg img {
+    width: 100%;
+    min-height: 100%; }
+
+/* line 15, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+.smallArticles .card {
+  margin-bottom: 14px; }
+
+/* line 18, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+.smallArticles .card-body {
+  height: 170px; }
+  /* line 20, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+  .smallArticles .card-body .containImg {
+    width: 50%;
+    height: 130px;
+    float: left;
+    overflow: hidden; }
+    /* line 25, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+    .smallArticles .card-body .containImg img {
+      width: 100%;
+      min-height: 100%; }
+  /* line 31, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+  .smallArticles .card-body .content {
+    width: 50%;
+    padding: 15px;
+    padding-top: 0; }
+    /* line 35, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+    .smallArticles .card-body .content h4 {
+      margin-top: 0; }
+
+/*
+.containMemes img {
+    max-width: 300px;
+     max-height: 300px; 
+    height: 200px;
+}
+*/
+/* line 50, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+.memeGalleryModal .modal-dialog {
+  width: 500px;
+  height: 500px;
+  background: transparent; }
+  /* line 55, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+  .memeGalleryModal .modal-dialog #memeGallery .wrapImg {
+    background: #343530;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-grid; }
+  /* line 62, C:/xampp/htdocs/blog-now/scss/imports/_home.scss */
+  .memeGalleryModal .modal-dialog #memeGallery img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto; }
+
+/* line 2, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+#showArticle .coverImg {
+  margin-bottom: 2%; }
+  /* line 4, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+  #showArticle .coverImg img {
+    width: 100%; }
+
+/* line 11, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+#articleList .smallArticles .card-body {
+  height: 210px; }
+  /* line 13, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+  #articleList .smallArticles .card-body .containImg {
+    width: 40%;
+    height: 170px;
+    float: left;
+    overflow: hidden; }
+
+/* line 20, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+#articleList .likesNcomments {
+  position: absolute;
+  bottom: 0; }
+
+/* line 27, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+[contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 31, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+[contentEditable=true]:focus {
+  outline: 0; }
+
+/* line 34, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+[contentEditable=true] div {
+  margin-bottom: 2%; }
+
+/* line 40, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+#writeBlog article {
+  min-height: 68vh; }
+  /* line 42, C:/xampp/htdocs/blog-now/scss/imports/_article.scss */
+  #writeBlog article img {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
