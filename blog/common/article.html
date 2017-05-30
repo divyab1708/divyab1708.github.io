@@ -1,0 +1,70 @@
+
+<div  id="showArticle" class="containerPadding">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-xs-12">
+			<div class="card">
+				<div class="card-body">
+					<h1>{{article.title}}</h1>
+					<p class="summary">{{article.summary}}</p>
+					<div class="coverImg">
+						<img ng-src="{{article.coverImg}}">
+					</div>
+
+					<div ng-bind-html="article.content | to_trusted"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="comments">
+		<div class="col-lg-12 col-md-12 col-xs-12">
+			<div class="card">
+				<div class="card-body">
+					<div class="likesNcomments">
+						<span><a href="" class="fa" ng-class="currentLike ?  'fa-thumbs-up' :  'fa-thumbs-o-up'" ng-click="setLike()"> </a>  {{article.likes}} </span><span><i class="fa fa-comment-o"></i>{{article.comments.length}}</span>
+					</div>
+					
+					
+						
+					<h3>Comments:</h3>
+					
+					<div class="commentC" ng-repeat="comment in article.comments">
+						<span class="pull-right">{{comment.date | date: "dd-MMM-yyyy"}}</span>
+						<img src="img/dummy/dp.jpg">
+						<div class="details">
+							
+							<strong>{{comment.name}}</strong>
+							<div>{{comment.comment_text}} </div>
+						</div>
+					</div>
+					
+					<!--<div class="commentC">
+						<img src="img/dummy/dp.jpg">
+						<div class="details">
+							
+							<strong>{{currentComment.name}}</strong>
+							<div>{{currentComment.comment_text}} </div>
+						</div>
+					</div>
+					-->
+					<h3 style="margin-top: 2%;"> Write a comment</h3>
+					
+					<form class="form" name="commentForm" novalidate ng-submit="commentForm.$valid && addComment()">
+						<div class="form-group">
+							<label class="control-label">Name <span class="required">*</span></label>
+							<input type="text" class="form-control" ng-model="currentComment.name " hyphenate required>
+						</div>
+						<div class="form-group">
+							<label class="control-label">Comment <span class="required">*</span></label>
+							<textarea class="form-control" ng-model="currentComment.comment_text" required ></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary	">
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		
+		</div>
+	</div>
+</div>

@@ -1,0 +1,20 @@
+<div id="articleList" class="containerPadding">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-xs-12 smallArticles">
+			<div class="card" ng-repeat="article in allArticles track by $index" ng-click="openArticle($index)">
+			<div class="card-body">
+				<div class="containImg">
+					<img ng-src="{{article.coverImg}}">
+				</div>
+				<div class="content pull-left">
+					<h2>{{article.title}}</h2>
+					<p class="summary">{{ article.summary}}</p>
+					<div class="likesNcomments">
+						<span><i href="" class="fa fa-thumbs-o-up" > </i>  {{article.likes}} </span><span><i class="fa fa-comment-o"></i>{{article.comments.length}}</span>
+					</div>
+				</div>
+			</div>
+		</div>	
+		</div>
+	</div>
+</div>

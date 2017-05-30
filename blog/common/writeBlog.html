@@ -1,0 +1,66 @@
+<div class="containerPadding" id="writeBlog">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-xs-12">
+			<div class="card">
+				<div class="card-head">
+					<input type="file" class="btn btn-default" id="imgInp" onchange="angular.element($(this)).scope().handleImg(this)" >
+					<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Embed</button>
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Embed Link</h4>
+						  </div>
+						  <div class="modal-body">
+							<input type="text" class="form-control" placeholder="Enter Embed code" ng-model="embedCode">
+						  </div>
+						  <div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary" ng-click="addEmbed()">Add</button>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<!--<img src="#" id="preview">-->
+				</div>
+				<div class="card-body">
+					<div class="blogEdited">
+						<h1 contenteditable="true" data-text="Title"></h1>
+						<div class="summary" contenteditable="true" data-text="Summary"></div>
+						<article contenteditable="true"  data-text="Tell your story..."></article>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<link rel="stylesheet" href="css/editor.css">
+<link rel="stylesheet" href="css/menu.css">
+<script src="js/grande.js"></script>
+<script>
+	grande.bind(document.querySelectorAll("article"));
+	$("article").bind("contextmenu",function(e){  
+  return false;  
+    });  
+/*	
+	    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            
+            reader.onload = function (e) {
+                $('#preview').attr('src', e.target.result);
+            }
+            
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    
+    $("#imgInp").change(function(){
+        readURL(this);
+    });*/
+</script>
