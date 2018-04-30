@@ -1,0 +1,35 @@
+<html>
+   <head>
+      <title>Todo - home</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/to-do.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+   </head>
+   <body>
+      
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-12 col-centered" id="mainBox">
+              <h2 class="headingMain">To do lists <a href="javascript:window.location.href='todo.html?index=1000'">+</a></h2>
+               <div  class="toDoItem"  v-for="(list,index) in lists" :class="list.color" @click="goToPage(index)">
+                  <div class="title">{{list.title}}</div>
+                  <div class="action pull-right"><a href="" class="fa fa-trash"></a></div>
+               </div>
+               
+               
+            
+            </div>
+         
+         </div>
+      
+      
+      </div>
+   
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+      <script src="js/to-do.js"></script>
+   </body>
+</html>
