@@ -1,0 +1,25 @@
+.thumbnail img {
+    width: 50px;
+}
+.list-group.prod {
+    width: 50%;
+    margin: auto;
+}
+
+.gal {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.small-image.thumbnail.ng-scope {
+    display: inline-block;
+}
+
+.ng-invalid.ng-dirty{
+  border-color: red;
+}    
+
+.ng-valid.ng-dirty{
+  border-color: green;
+}  
