@@ -1,0 +1,156 @@
+body{
+   background: #fafafa;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.col-centered{
+   margin: auto;
+   float: none;
+}
+
+#mainBox{
+   border: 2px solid #fafafa;
+   background: white;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+   border-radius: 3px;
+   margin-top: 50px;
+       padding: 0;
+}
+
+.headingMain{
+   padding:  10px 10px;
+   margin: 0;  
+}
+
+
+.toDoItem .title {
+    display: inline-block;
+}
+
+.toDoItem {
+    padding: 17px 10px;
+    border-top: 1px solid;
+    border-color: #e4e4e4;
+   cursor: pointer;
+   
+}
+
+
+
+.yellow {
+    background: #F6F490;
+}
+
+.pink {
+    background: #F2A3C2;
+}
+
+.blue {
+    background: #A8D2E0;
+}
+
+.toDoItem .title{
+   font-weight: 600;
+}
+
+.toDo {
+    padding: 10px;
+    border-bottom: 1px solid #e4e4e4;
+   cursor: pointer;
+}
+
+.toDo:hover{
+   background: #e4e4e4;
+}
+
+.toDo .title{
+   display: inline;
+}
+.inline-block{
+   display: inline-block;
+}
+
+.strike .title{
+    text-decoration: line-through;
+}
+
+select#filter {
+    width: 90px;
+    display: inline;
+    float: right;
+}
+
+.btn-primary {
+;
+    border-color: #357ebd;
+    padding: 6px;
+    width: 9%;
+    border-radius: 3px;
+}
+
+a.fa.fa-arrow-left {
+    font-size: 19px;
+    position: absolute;
+    top: 20px;
+}
+
+.headingMain span {
+    margin-left: 25px;
+}
+.toDoItem:hover{
+   background: #FFF86F;
+}
+
+
+/*------*/
+.md-checkbox {
+  position: relative;
+/*  margin: 16px 0;*/
+  text-align: left;
+}
+.md-checkbox.md-checkbox-inline {
+  display: inline-block;
+}
+.md-checkbox label {
+  cursor: pointer;
+}
+.md-checkbox label:before, .md-checkbox label:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.md-checkbox label:before {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.md-checkbox input[type="checkbox"] {
+  outline: 0;
+  margin-right: 10px;
+  visibility: hidden;
+}
+.md-checkbox input[type="checkbox"]:checked + label:before {
+  background: #337ab7;
+  border: none;
+}
+.md-checkbox input[type="checkbox"]:checked + label:after {
+  transform: rotate(-45deg);
+  top: 5px;
+  left: 4px;
+  width: 12px;
+  height: 6px;
+  border: 2px solid #fff;
+  border-top-style: none;
+  border-right-style: none;
+}
+.md-checkbox input[type="checkbox"]:disabled + label:before {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+.md-checkbox input[type="checkbox"]:disabled:checked + label:before {
+  background: rgba(0, 0, 0, 0.26);
+}
