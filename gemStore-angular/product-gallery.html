@@ -1,0 +1,8 @@
+<div class="gallery" >
+             <img ng-src={{product.images[gallery.current]}} />
+           </div>
+            <div class="img-thumbnails clearfix text-center">
+             <div class="small-image thumbnail" ng-repeat="image in product.images">
+               <img ng-src="{{image}}" />
+             </div>
+           </div>
