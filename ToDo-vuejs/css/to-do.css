@@ -2,7 +2,9 @@ body{
    background: #fafafa;
    font-family: 'Open Sans', sans-serif;
 }
-
+a{
+   text-decoration: none !important;
+}
 .col-centered{
    margin: auto;
    float: none;
