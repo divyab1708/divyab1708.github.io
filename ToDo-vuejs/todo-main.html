@@ -11,7 +11,7 @@
       <div class="container-fluid">
          <div class="row">
             <div class="col-lg-6 col-md-6 col-xs-12 col-centered" id="mainBox">
-              <h2 class="headingMain">To do lists <a href="javascript:window.location.href='todo.html?index=1000'">+</a></h2>
+              <h2 class="headingMain">To do lists <a href="javascript:window.location.href='todo.html?index=1000'" class="pull-right">+</a></h2>
                <div  class="toDoItem"  v-for="(list,index) in lists" :class="list.color" @click="goToPage(index)">
                   <div class="title">{{list.title}}</div>
                   <div class="action pull-right"><a href="" class="fa fa-trash"></a></div>
